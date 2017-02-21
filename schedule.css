@@ -1,0 +1,40 @@
+table {
+  border-collapse: collapse;
+  width: auto;
+  border: 2px solid #424242;
+}
+
+table, th, td {
+  text-align: left;
+  font-family: Calibri, Arial, Helvetica, sans-serif;
+}
+
+th, td {
+  padding: 2px;
+}
+
+th {
+  font-weight: bold;
+  background-color: #3299BB;
+  color: #ffffff;
+}
+
+tr {
+  border: 1px solid #424242;
+}
+
+tr:nth-child(even) {
+  background-color: #E9E9E9;
+  /*Color pallet found at: http://www.colourlovers.com/palette/148712/Gamebookers */
+}
+
+tr:nth-child(odd) {
+  background-color: #BCBCBC;
+  /*Color pallet found at: http://www.colourlovers.com/palette/148712/Gamebookers */
+}
+
+tr:hover {
+  background-color: #ff9900;
+  color: #424242;
+  /*Color pallet found at: http://www.colourlovers.com/palette/148712/Gamebookers */
+}
